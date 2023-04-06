@@ -1,0 +1,77 @@
+body {
+  background-color: #000;
+  color: #0F0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  text-align: center; /* 剧中标题 */
+}
+
+h2 {
+  font-size: 1em;
+  margin: 0;
+  text-align: center; /* 剧中标题 */
+}
+
+.container {
+  /* ... */
+  text-align: center; /* 让 .container 内容水平居中 */
+}
+
+.input-container textarea,
+.output-container textarea,
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #111;
+  border: 1px solid #0F0;
+  box-shadow: 0 0 20px #0F0;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.input-container, .output-container {
+  margin: 20px 0;
+}
+
+textarea {
+  background-color: #000;
+  color: #0F0;
+  border: 1px solid #0F0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2em;
+  resize: none;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button {
+  background-color: #0F0;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #222;
+}
+
+#info {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
